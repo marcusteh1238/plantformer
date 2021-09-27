@@ -17,6 +17,6 @@ if (place_meeting(x + hspeed, y, oPlatforms)) {
 }
 
 if (place_meeting(x, y + vspeed, oDeathzone)) {
-	x = 256
+	x = 32
 	y = 300
 }
