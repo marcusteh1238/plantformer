@@ -21,7 +21,7 @@ if (place_meeting(x, y + vspeed, oPlatforms) or (place_meeting(x, y + vspeed, oP
 if (place_meeting(x + hspeed, y, oPlatforms) or place_meeting(x + hspeed, y, oPlatformPlant)) {
 	hspeed = 0
 }
-5
+
 //dead, reset
 if (place_meeting(x, y + vspeed, oDeathzone)) {
 	x = 32
