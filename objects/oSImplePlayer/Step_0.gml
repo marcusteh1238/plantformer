@@ -8,24 +8,34 @@ keyjump = keyboard_check(vk_space)
 hspeed = (keyright -  keyleft) * walkSpd
 vspeed = vspeed + grv
 
-if(hspeed != 0 and (place_meeting(x, y + vspeed, oPlatforms))) {
-	isForwardTime = true
-}else {
-	isForwardTime = false
+if (place_meeting(x, y + vspeed, oPlatforms) or place_meeting(x, y + vspeed, oPlatformPlant) or place_meeting(x, y + vspeed, oWall)) {
+	vspeed = 0 - keyjump * jumpSpd
 }
 
-if (place_meeting(x, y + vspeed, oPlatforms) or (place_meeting(x, y + vspeed, oPlatformPlant))) {
-	vspeed = 0 - keyjump * jumpSpd	
-}
-
-if (place_meeting(x + hspeed, y, oPlatforms) or place_meeting(x + hspeed, y, oPlatformPlant)) {
+if (place_meeting(x + hspeed, y, oPlatforms) or place_meeting(x + hspeed, y, oPlatformPlant)  or place_meeting(x + hspeed, y, oWall)) {
 	hspeed = 0
+}
+
+isForwardTime = false;
+// check if going forward in time (plant grows)
+if(hspeed != 0) {
+	// if an oPlatform is directly below, then set isForwardTime to true
+	var collisionList = ds_list_create()
+	var str = "";
+	collision_line_list(x, y, x, room_height, all, false, true, collisionList, true);
+	var firstCollisionId = collisionList[|0]
+	with(firstCollisionId) {
+		other.isForwardTime = object_index == oPlatforms.object_index;
+	}
+	// show_debug_message("isForwardTime: " + string(isForwardTime))
 }
 
 //dead, reset
 if (place_meeting(x, y + vspeed, oDeathzone)) {
-	x = 32
-	y = 300
-	oPlatformPlant.x = 448
-	oPlatformPlant.y = 738
+	with (all) {
+		if (variable_instance_exists(self, "isCreatedAtLevelStart") and isCreatedAtLevelStart) {
+			x = x_orig
+			y = y_orig
+		}
+	}
 }

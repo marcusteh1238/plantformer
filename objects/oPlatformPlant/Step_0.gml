@@ -2,5 +2,5 @@
 // You can write your code in this editor
 
 if oSImplePlayer.isForwardTime {
-	y -= 5
+	y -= growth_y_per_step;
 }
