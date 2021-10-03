@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"scrCheckPress","path":"scripts/scrCheckPress/scrCheckPress.yy",},"order":0,},
+    {"id":{"name":"oInv","path":"objects/oInv/oInv.yy",},"order":13,},
     {"id":{"name":"sGhostShadow","path":"sprites/sGhostShadow/sGhostShadow.yy",},"order":1,},
     {"id":{"name":"sCollisions","path":"sprites/sCollisions/sCollisions.yy",},"order":0,},
     {"id":{"name":"oPlatformPlant","path":"objects/oPlatformPlant/oPlatformPlant.yy",},"order":7,},
@@ -53,6 +54,7 @@
     {"id":{"name":"sFall","path":"sprites/sFall/sFall.yy",},"order":1,},
     {"id":{"name":"oGhost","path":"objects/oGhost/oGhost.yy",},"order":3,},
     {"id":{"name":"oGame","path":"objects/oGame/oGame.yy",},"order":2,},
+    {"id":{"name":"sInv","path":"sprites/sInv/sInv.yy",},"order":12,},
     {"id":{"name":"oSeedGreen","path":"objects/oSeedGreen/oSeedGreen.yy",},"order":8,},
     {"id":{"name":"sSeedInventory","path":"sprites/sSeedInventory/sSeedInventory.yy",},"order":11,},
     {"id":{"name":"tGrass","path":"tilesets/tGrass/tGrass.yy",},"order":1,},
@@ -70,6 +72,7 @@
     {"name":"macOS","path":"options/mac/options_mac.yy",},
     {"name":"tvOS","path":"options/tvos/options_tvos.yy",},
     {"name":"Windows UWP","path":"options/windowsuap/options_windowsuap.yy",},
+    {"name":"operagx","path":"options/operagx/options_operagx.yy",},
   ],
   "isDnDProject": false,
   "isEcma": false,
@@ -114,7 +117,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.4.583",
+    "IDEVersion": "2.3.5.589",
   },
   "resourceVersion": "1.4",
   "name": "Plantformer",
