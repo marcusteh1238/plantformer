@@ -31,6 +31,7 @@ if(hspeed != 0) {
 }
 
 //dead, reset
+/*
 if (place_meeting(x, y + vspeed, oDeathzone)) {
 	with (all) {
 		if (variable_instance_exists(self, "isCreatedAtLevelStart") and isCreatedAtLevelStart) {
@@ -39,3 +40,4 @@ if (place_meeting(x, y + vspeed, oDeathzone)) {
 		}
 	}
 }
+*/
