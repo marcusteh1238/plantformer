@@ -4,6 +4,6 @@
 
 for (var i = 0; i < green; i += 1)
 {
-    draw_sprite(sSeedGreen, 0 , x + 10 + i * 32, y)
+    instance_create_layer(x + 10 + i * 32, y + 10, "UI2", oSeedGreenMenu);
 }
 
