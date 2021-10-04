@@ -53,6 +53,7 @@
     {"id":{"name":"sCloud_sand","path":"sprites/sCloud_sand/sCloud_sand.yy",},"order":7,},
     {"id":{"name":"sWalk","path":"sprites/sWalk/sWalk.yy",},"order":6,},
     {"id":{"name":"R1_2","path":"rooms/R1_2/R1_2.yy",},"order":2,},
+    {"id":{"name":"R1_3","path":"rooms/R1_3/R1_3.yy",},"order":3,},
     {"id":{"name":"sFall","path":"sprites/sFall/sFall.yy",},"order":1,},
     {"id":{"name":"oGhost","path":"objects/oGhost/oGhost.yy",},"order":3,},
     {"id":{"name":"oGame","path":"objects/oGame/oGame.yy",},"order":2,},
@@ -84,8 +85,9 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"R1_2","path":"rooms/R1_2/R1_2.yy",},},
     {"roomId":{"name":"R1_1","path":"rooms/R1_1/R1_1.yy",},},
+    {"roomId":{"name":"R1_2","path":"rooms/R1_2/R1_2.yy",},},
+    {"roomId":{"name":"R1_3","path":"rooms/R1_3/R1_3.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
