@@ -84,8 +84,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"R1_1","path":"rooms/R1_1/R1_1.yy",},},
     {"roomId":{"name":"R1_2","path":"rooms/R1_2/R1_2.yy",},},
+    {"roomId":{"name":"R1_1","path":"rooms/R1_1/R1_1.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
