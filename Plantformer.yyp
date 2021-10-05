@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"scrCheckPress","path":"scripts/scrCheckPress/scrCheckPress.yy",},"order":0,},
+    {"id":{"name":"R1_5","path":"rooms/R1_5/R1_5.yy",},"order":5,},
     {"id":{"name":"oInv","path":"objects/oInv/oInv.yy",},"order":13,},
     {"id":{"name":"sGhostShadow","path":"sprites/sGhostShadow/sGhostShadow.yy",},"order":1,},
     {"id":{"name":"sCollisions","path":"sprites/sCollisions/sCollisions.yy",},"order":0,},
@@ -34,6 +35,7 @@
     {"id":{"name":"sBGHills1_grass","path":"sprites/sBGHills1_grass/sBGHills1_grass.yy",},"order":4,},
     {"id":{"name":"oPlatforms","path":"objects/oPlatforms/oPlatforms.yy",},"order":3,},
     {"id":{"name":"sBGHills_sand","path":"sprites/sBGHills_sand/sBGHills_sand.yy",},"order":3,},
+    {"id":{"name":"R1_6","path":"rooms/R1_6/R1_6.yy",},"order":6,},
     {"id":{"name":"oInventoryUI","path":"objects/oInventoryUI/oInventoryUI.yy",},"order":9,},
     {"id":{"name":"sSandTiles","path":"sprites/sSandTiles/sSandTiles.yy",},"order":2,},
     {"id":{"name":"sBGHills1_sand","path":"sprites/sBGHills1_sand/sBGHills1_sand.yy",},"order":5,},
@@ -56,6 +58,7 @@
     {"id":{"name":"R1_3","path":"rooms/R1_3/R1_3.yy",},"order":3,},
     {"id":{"name":"sFall","path":"sprites/sFall/sFall.yy",},"order":1,},
     {"id":{"name":"oGhost","path":"objects/oGhost/oGhost.yy",},"order":3,},
+    {"id":{"name":"R1_4","path":"rooms/R1_4/R1_4.yy",},"order":4,},
     {"id":{"name":"oGame","path":"objects/oGame/oGame.yy",},"order":2,},
     {"id":{"name":"sInv","path":"sprites/sInv/sInv.yy",},"order":12,},
     {"id":{"name":"oSeedGreen","path":"objects/oSeedGreen/oSeedGreen.yy",},"order":8,},
@@ -85,9 +88,12 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"R1_5","path":"rooms/R1_5/R1_5.yy",},},
     {"roomId":{"name":"R1_1","path":"rooms/R1_1/R1_1.yy",},},
     {"roomId":{"name":"R1_2","path":"rooms/R1_2/R1_2.yy",},},
     {"roomId":{"name":"R1_3","path":"rooms/R1_3/R1_3.yy",},},
+    {"roomId":{"name":"R1_4","path":"rooms/R1_4/R1_4.yy",},},
+    {"roomId":{"name":"R1_6","path":"rooms/R1_6/R1_6.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
