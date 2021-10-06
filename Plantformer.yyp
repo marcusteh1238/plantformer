@@ -88,11 +88,11 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"R1_5","path":"rooms/R1_5/R1_5.yy",},},
     {"roomId":{"name":"R1_1","path":"rooms/R1_1/R1_1.yy",},},
     {"roomId":{"name":"R1_2","path":"rooms/R1_2/R1_2.yy",},},
     {"roomId":{"name":"R1_3","path":"rooms/R1_3/R1_3.yy",},},
     {"roomId":{"name":"R1_4","path":"rooms/R1_4/R1_4.yy",},},
+    {"roomId":{"name":"R1_5","path":"rooms/R1_5/R1_5.yy",},},
     {"roomId":{"name":"R1_6","path":"rooms/R1_6/R1_6.yy",},},
   ],
   "Folders": [
@@ -126,7 +126,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.4.583",
+    "IDEVersion": "2.3.5.589",
   },
   "resourceVersion": "1.4",
   "name": "Plantformer",

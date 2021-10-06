@@ -1,8 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-keyleft = keyboard_check(vk_left)
-keyright = keyboard_check(vk_right)
+keyleft = keyboard_check(vk_left) || keyboard_check(ord("A"))
+keyright = keyboard_check(vk_right) || keyboard_check(ord("D"))
 keyjump = keyboard_check(vk_space)
 
 hspeed = (keyright -  keyleft) * walkSpd
