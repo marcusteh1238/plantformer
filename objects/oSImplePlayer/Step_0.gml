@@ -8,11 +8,11 @@ keyjump = keyboard_check(vk_space)
 hspeed = (keyright -  keyleft) * walkSpd
 vspeed = vspeed + grv
 
-if (place_meeting(x, y + vspeed, oPlatforms) or place_meeting(x, y + vspeed, oPlatformPlant) or place_meeting(x, y + vspeed, oWall)) {
+if (place_meeting(x, y + vspeed, oPlatforms) or place_meeting(x, y + vspeed, oPlatformPlant) or place_meeting(x, y + vspeed, oPlatformPlantRed) or place_meeting(x, y + vspeed, oWall)) {
 	vspeed = 0 - keyjump * jumpSpd
 }
 
-if (place_meeting(x + hspeed, y, oPlatforms) or place_meeting(x + hspeed, y, oPlatformPlant)  or place_meeting(x + hspeed, y, oWall)) {
+if (place_meeting(x + hspeed, y, oPlatforms) or place_meeting(x + hspeed, y, oPlatformPlant)  or place_meeting(x + hspeed, y, oPlatformPlantRed) or place_meeting(x + hspeed, y, oWall)) {
 	hspeed = 0
 }
 

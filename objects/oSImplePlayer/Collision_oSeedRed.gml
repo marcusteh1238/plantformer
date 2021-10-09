@@ -1,5 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-green = 0
-red = 0
+instance_destroy(other)
+oInv.red += 1

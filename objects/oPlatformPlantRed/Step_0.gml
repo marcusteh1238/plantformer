@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-green = 0
-red = 0
+if oSimplePlayer.isForwardTime {
+	y -= growth_y_per_step;
+}
