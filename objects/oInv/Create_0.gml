@@ -28,7 +28,7 @@ function createSeedInstanceAtInvIndex(obj, index) {
 }
 
 function createBoxHoverAtInvIndex(index) {
-	if (index < 0) return;
 	instance_destroy(oInvSeedSelector)
+	if (index < 0) return;
 	return instance_create_layer(x + index * 48, y, "UI2", oInvSeedSelector)
 }
