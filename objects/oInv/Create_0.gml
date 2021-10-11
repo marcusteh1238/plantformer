@@ -12,12 +12,8 @@ function refresh() {
 	instance_destroy(oSeedGreenMenu)
 	instance_destroy(oSeedRedMenu)
 	for(var i = 0; i < ds_list_size(invSeedStrList); i++){
-		if (invSeedStrList[|i] == "green") {
-			ds_list_add(guiInstances, instance_create_layer(x + 16 + i * 48, y + 16, "UI2", oSeedGreenMenu))
-		}
-		if (invSeedStrList[|i] == "red") {
-			ds_list_add(guiInstances, instance_create_layer(x + 16 + i * 48, y + 16, "UI2", oSeedRedMenu))
-		}
+		var seedMenuObj = scrGetSeedMenuObj(invSeedStrList[|i])
+		ds_list_add(guiInstances, instance_create_layer(x + 16 + i * 48, y + 16, "UI2", seedMenuObj))
 	}
 	currLen = ds_list_size(invSeedStrList)
 	currHeldInstance = guiInstances[|currHeldIndex]
