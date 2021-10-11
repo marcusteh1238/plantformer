@@ -12,7 +12,8 @@ var seed = inv.invSeedStrList[|inv.currHeldIndex];
 instance_create_layer(x, oSoil.y + 32, "Level", scrGetSeedPlantformObj(seed));
 // destroy instance of menu seed in GUI
 ds_list_delete(inv.invSeedStrList, inv.currHeldIndex);
-instance_destroy(inv.guiInstances[|inv.currHeldIndex])
+instance_destroy(inv.guiInstances[|inv.currHeldIndex]);
+hoverSprite = undefined;
 // change current held index if needed
 var listSize = ds_list_size(inv.invSeedStrList)
 if (inv.currHeldIndex >= listSize) {
