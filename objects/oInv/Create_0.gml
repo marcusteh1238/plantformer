@@ -12,9 +12,23 @@ function refresh() {
 	instance_destroy(oSeedGreenMenu)
 	instance_destroy(oSeedRedMenu)
 	for(var i = 0; i < ds_list_size(invSeedStrList); i++){
-		var seedMenuObj = scrGetSeedMenuObj(invSeedStrList[|i])
-		ds_list_add(guiInstances, instance_create_layer(x + 16 + i * 48, y + 16, "UI2", seedMenuObj))
+		var seedMenuObj = scrGetSeedMenuObj(invSeedStrList[|i]);
+		ds_list_add(guiInstances, createSeedInstanceAtInvIndex(seedMenuObj, i));
 	}
-	currLen = ds_list_size(invSeedStrList)
-	currHeldInstance = guiInstances[|currHeldIndex]
+	currLen = ds_list_size(invSeedStrList);
+	currHeldInstance = guiInstances[|currHeldIndex];
+	createBoxHoverAtInvIndex(currHeldIndex)
+}
+
+/**
+ * For a particular index of the inventory, render a seed or box at its corresponding spot.
+ */
+function createSeedInstanceAtInvIndex(obj, index) {
+	return instance_create_layer(x + 16 + index * 48, y + 16, "UI2", obj)
+}
+
+function createBoxHoverAtInvIndex(index) {
+	if (index < 0) return;
+	instance_destroy(oInvSeedSelector)
+	return instance_create_layer(x + index * 48, y, "UI2", oInvSeedSelector)
 }

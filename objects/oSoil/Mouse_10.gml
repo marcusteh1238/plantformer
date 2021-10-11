@@ -7,5 +7,4 @@ if (inv.currHeldIndex < 0) {
 	return;
 }
 
-var platformHoverObj = scrGetSeedPlantformHoverObj(inv.invSeedStrList[|inv.currHeldIndex]);
-hoverInstance = instance_create_layer(x, y + 32, "UI2", platformHoverObj);
+hoverSprite = inv.invSeedStrList[|inv.currHeldIndex];

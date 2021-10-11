@@ -1,8 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
-if (holding < 0) return;
-if (holding == 0) {
-	holding = ds_list_size(list) - 1;
+if (currHeldIndex < 0) return;
+if (currHeldIndex == 0) {
+	currHeldIndex = ds_list_size(invSeedStrList) - 1;
 } else {
-	holding = holding - 1;
+	currHeldIndex -= 1;
 }
+createBoxHoverAtInvIndex(currHeldIndex)
