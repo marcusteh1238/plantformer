@@ -20,14 +20,25 @@ isForwardTime = false;
 // check if going forward in time (plant grows)
 if(hspeed != 0) {
 	// if an oPlatform is directly below, then set isForwardTime to true
-	var collisionList = ds_list_create()
-	var str = "";
-	collision_line_list(x, y, x, room_height, all, false, true, collisionList, true);
-	var firstCollisionId = collisionList[|0]
-	with(firstCollisionId) {
-		other.isForwardTime = object_index == oPlatforms.object_index;
+	var collisionListLeft = ds_list_create();
+	var collisionListRight = ds_list_create();
+	var bottomLeftX = x - (sprite_width / 2)
+	collision_line_list(bottomLeftX, y, bottomLeftX, room_height, all, false, true, collisionListLeft, true);
+	var firstCollisionIdLeft = collisionListLeft[|0]
+	isLeftCollide = false;
+	with(firstCollisionIdLeft) {
+		other.isLeftCollide = object_index == oPlatforms.object_index;
 	}
-	// show_debug_message("isForwardTime: " + string(isForwardTime))
+	var bottomRightX = bottomLeftX + sprite_width;
+	collision_line_list(bottomRightX, y, bottomRightX, room_height, all, false, true, collisionListRight, true);
+	var firstCollisionIdRight = collisionListRight[|0]
+	isRightCollide = false;
+	with(firstCollisionIdRight) {
+		other.isRightCollide = object_index == oPlatforms.object_index;
+	}
+	if (isLeftCollide && isRightCollide) {
+		isForwardTime = true;
+	}
 }
 
 //dead, reset
