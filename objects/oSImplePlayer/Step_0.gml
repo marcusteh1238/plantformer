@@ -8,11 +8,14 @@ keyjump = keyboard_check(vk_space)
 hspeed = (keyright -  keyleft) * walkSpd
 vspeed = vspeed + grv
 
-if (place_meeting(x, y + vspeed, oPlatforms) or place_meeting(x, y + vspeed, oPlatformPlant) or place_meeting(x, y + vspeed, oPlatformPlantRed) or place_meeting(x, y + vspeed, oWall)) {
-	vspeed = 0 - keyjump * jumpSpd
+if (isTouchingSolidObject(x, y + vspeed)) {
+	vspeed = 0 - keyjump * jumpSpd 
+	if (isTouchingSolidObject(x, y - 50)) {
+		vspeed = 0;
+	}
 }
 
-if (place_meeting(x + hspeed, y, oPlatforms) or place_meeting(x + hspeed, y, oPlatformPlant)  or place_meeting(x + hspeed, y, oPlatformPlantRed) or place_meeting(x + hspeed, y, oWall)) {
+if (isTouchingSolidObject(x + hspeed, y)) {
 	hspeed = 0
 }
 
