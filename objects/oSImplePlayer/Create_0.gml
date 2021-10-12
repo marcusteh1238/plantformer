@@ -3,8 +3,8 @@
 isCreatedAtLevelStart = true;
 x_orig = x;
 y_orig = y;
-walkSpd = 5
-jumpSpd = 10
+walkSpd = 4
+jumpSpd = 8
 grv = 0.5
 
 isForwardTime = false;
