@@ -72,7 +72,6 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"R2_4","path":"rooms/R2_4/R2_4.yy",},},
     {"roomId":{"name":"R1_1","path":"rooms/R1_1/R1_1.yy",},},
     {"roomId":{"name":"R1_2","path":"rooms/R1_2/R1_2.yy",},},
     {"roomId":{"name":"R1_3","path":"rooms/R1_3/R1_3.yy",},},
@@ -81,6 +80,7 @@
     {"roomId":{"name":"R2_1","path":"rooms/R2_1/R2_1.yy",},},
     {"roomId":{"name":"R2_2","path":"rooms/R2_2/R2_2.yy",},},
     {"roomId":{"name":"R2_3","path":"rooms/R2_3/R2_3.yy",},},
+    {"roomId":{"name":"R2_4","path":"rooms/R2_4/R2_4.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -105,7 +105,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.5.589",
+    "IDEVersion": "2.3.4.583",
   },
   "resourceVersion": "1.4",
   "name": "Plantformer",
