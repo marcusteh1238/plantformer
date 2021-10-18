@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 var inv = instance_find(oInv, 0);
-if (inv.currHeldIndex < 0) {
+if (inv.currHeldIndex < 0 || !canPlaceSeed()) {
 	return;
 }
 

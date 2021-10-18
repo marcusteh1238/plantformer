@@ -7,4 +7,6 @@ if (inv.currHeldIndex < 0) {
 	return;
 }
 
-hoverSprite = inv.invSeedStrList[|inv.currHeldIndex];
+if (canPlaceSeed()) {
+	hoverSprite = inv.invSeedStrList[|inv.currHeldIndex];
+}
