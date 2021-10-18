@@ -22,3 +22,11 @@ function getStemObject(totalStemCount) {
 	}
 	return oPlantformStem_2;
 }
+
+function isTouchingSolidObject(xToCheck, yToCheck) {
+	return 
+	place_meeting(xToCheck, yToCheck, oPlatforms) || 
+	place_meeting(xToCheck, yToCheck, oPlatformPlant) || 
+	place_meeting(xToCheck, yToCheck, oPlatformPlantRed) || 
+	place_meeting(xToCheck, yToCheck, oWall)
+}

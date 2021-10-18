@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if oSimplePlayer.isForwardTime {
+if (oSimplePlayer.isForwardTime  && !isTouchingSolidObject(x, y - growth_y_per_step)) {
 	y -= growth_y_per_step;
 }
 
