@@ -67,7 +67,6 @@ if(hspeed != 0) {
 	}
 }
 
-
 //dead, reset
 /*
 if (place_meeting(x, y + vspeed, oDeathzone)) {
