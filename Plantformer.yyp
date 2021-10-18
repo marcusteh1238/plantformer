@@ -11,6 +11,7 @@
     {"id":{"name":"R2_2","path":"rooms/R2_2/R2_2.yy",},"order":10,},
     {"id":{"name":"oPlantformStemBase_2","path":"objects/oPlantformStemBase_2/oPlantformStemBase_2.yy",},"order":28,},
     {"id":{"name":"sPlatform","path":"sprites/sPlatform/sPlatform.yy",},"order":1,},
+    {"id":{"name":"R3_2","path":"rooms/R3_2/R3_2.yy",},"order":12,},
     {"id":{"name":"sPlantformStem_2","path":"sprites/sPlantformStem_2/sPlantformStem_2.yy",},"order":25,},
     {"id":{"name":"sCloud_2","path":"sprites/sCloud_2/sCloud_2.yy",},"order":17,},
     {"id":{"name":"sPlantRed","path":"sprites/sPlantRed/sPlantRed.yy",},"order":14,},
@@ -84,6 +85,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"R3_2","path":"rooms/R3_2/R3_2.yy",},},
     {"roomId":{"name":"R1_1","path":"rooms/R1_1/R1_1.yy",},},
     {"roomId":{"name":"R1_2","path":"rooms/R1_2/R1_2.yy",},},
     {"roomId":{"name":"R1_3","path":"rooms/R1_3/R1_3.yy",},},
