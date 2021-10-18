@@ -53,6 +53,7 @@
     {"id":{"name":"sPlantformStem_1","path":"sprites/sPlantformStem_1/sPlantformStem_1.yy",},"order":24,},
     {"id":{"name":"sPlantformStemBase_1","path":"sprites/sPlantformStemBase_1/sPlantformStemBase_1.yy",},"order":22,},
     {"id":{"name":"sInv","path":"sprites/sInv/sInv.yy",},"order":12,},
+    {"id":{"name":"oCloudParent","path":"objects/oCloudParent/oCloudParent.yy",},"order":29,},
     {"id":{"name":"oSeedGreen","path":"objects/oSeedGreen/oSeedGreen.yy",},"order":7,},
     {"id":{"name":"scrGetSeedObj","path":"scripts/scrGetSeedObj/scrGetSeedObj.yy",},"order":0,},
     {"id":{"name":"sSeedInventory","path":"sprites/sSeedInventory/sSeedInventory.yy",},"order":11,},
