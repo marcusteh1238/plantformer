@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sGoal",
-    "path": "sprites/sGoal/sGoal.yy",
+    "name": "sDeadPlantform",
+    "path": "sprites/sDeadPlantform/sDeadPlantform.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,9 +20,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"oSimplePlayer","path":"objects/oSimplePlayer/oSimplePlayer.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -30,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oGoal",
+  "name": "oDeadPlantform",
   "tags": [],
   "resourceType": "GMObject",
 }

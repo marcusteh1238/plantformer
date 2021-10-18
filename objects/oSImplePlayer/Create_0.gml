@@ -10,5 +10,10 @@ grv = 0.5
 isForwardTime = false;
 
 function isTouchingSolidObject(xToCheck, yToCheck) {
-	return place_meeting(xToCheck, yToCheck, oPlatforms) or place_meeting(xToCheck, yToCheck, oPlatformPlant) or place_meeting(xToCheck, yToCheck, oPlatformPlantRed) or place_meeting(xToCheck, yToCheck, oWall)
+	return 
+		place_meeting(xToCheck, yToCheck, oPlatforms) or 
+		place_meeting(xToCheck, yToCheck, oDeadPlantform) or 
+		place_meeting(xToCheck, yToCheck, oPlatformPlant) or 
+		place_meeting(xToCheck, yToCheck, oPlatformPlantRed) or 
+		place_meeting(xToCheck, yToCheck, oWall)
 }
