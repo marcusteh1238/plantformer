@@ -19,30 +19,54 @@ if (isTouchingSolidObject(x + hspeed, y)) {
 	hspeed = 0
 }
 
+
+function isCollide(collisionList) {
+	var size = ds_list_size(collisionList);
+	colliding = undefined;
+	for (var i = 0; i < size; i++) {
+		collisionId = collisionListLeft[|i];
+		if (is_undefined(collisionId)) {
+			break;
+		}
+		with (collisionId) {
+			if (object_index == oPlatforms.object_index) {
+				other.colliding = true;
+			} else if (
+				(instance_exists(oSeedRed) && object_index != oSeedRed.object_index) && 
+				(instance_exists(oSeedGreen) && object_index != oSeedGreen.object_index)
+			) {
+				other.colliding = false;
+			}
+		}
+		if (!is_undefined(colliding)) {
+			break;
+		}
+	}
+	return colliding;
+}
+
 isForwardTime = false;
 // check if going forward in time (plant grows)
 if(hspeed != 0) {
 	// if an oPlatform is directly below, then set isForwardTime to true
-	var collisionListLeft = ds_list_create();
-	var collisionListRight = ds_list_create();
+	collisionListLeft = ds_list_create();
+	collisionListRight = ds_list_create();
+	isLeftCollide = false;
+	isRightCollide = false;
+	
 	var bottomLeftX = x - (sprite_width / 2)
 	collision_line_list(bottomLeftX, y, bottomLeftX, room_height, all, false, true, collisionListLeft, true);
-	var firstCollisionIdLeft = collisionListLeft[|0]
-	isLeftCollide = false;
-	with(firstCollisionIdLeft) {
-		other.isLeftCollide = object_index == oPlatforms.object_index;
-	}
+	isLeftCollide = isCollide(collisionListLeft);
+	
 	var bottomRightX = bottomLeftX + sprite_width;
 	collision_line_list(bottomRightX, y, bottomRightX, room_height, all, false, true, collisionListRight, true);
-	var firstCollisionIdRight = collisionListRight[|0]
-	isRightCollide = false;
-	with(firstCollisionIdRight) {
-		other.isRightCollide = object_index == oPlatforms.object_index;
-	}
+	isRightCollide = isCollide(collisionListRight);
+	
 	if (isLeftCollide && isRightCollide) {
 		isForwardTime = true;
 	}
 }
+
 
 //dead, reset
 /*
