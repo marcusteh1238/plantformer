@@ -6,6 +6,8 @@ currLen = -1;
 currHeldIndex = -1;
 currHeldInstance = undefined;
 guiInstances = ds_list_create();
+renderMouseHoverX = 0;
+renderMouseHoverY = 0;
 
 function refresh() {
 	ds_list_clear(guiInstances);
@@ -16,7 +18,7 @@ function refresh() {
 		ds_list_add(guiInstances, createSeedInstanceAtInvIndex(seedMenuObj, i));
 	}
 	currLen = ds_list_size(invSeedStrList);
-	currHeldInstance = guiInstances[|currHeldIndex];
+	// currHeldInstance = guiInstances[|currHeldIndex];
 	createBoxHoverAtInvIndex(currHeldIndex)
 }
 

@@ -4,3 +4,10 @@
 if (currLen != ds_list_size(invSeedStrList)) {
 	refresh()
 }
+
+if (ds_list_size(invSeedStrList) > 0) {
+	var sprite = scrGetSeedSprite(invSeedStrList[|currHeldIndex]);
+	draw_set_alpha(0.7);
+	draw_sprite(sprite, 0, mouse_x - 10, mouse_y - 10);
+	draw_set_alpha(1);
+}
