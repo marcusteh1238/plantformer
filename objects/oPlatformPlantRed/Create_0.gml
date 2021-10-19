@@ -30,3 +30,4 @@ function isTouchingSolidObject(xToCheck, yToCheck) {
 	place_meeting(xToCheck, yToCheck, oPlatformPlantRed) || 
 	place_meeting(xToCheck, yToCheck, oWall)
 }
+

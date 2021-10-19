@@ -19,6 +19,7 @@
     {"id":{"name":"scrGetPlantformSprite","path":"scripts/scrGetPlantformSprite/scrGetPlantformSprite.yy",},"order":4,},
     {"id":{"name":"sDeadPlantform","path":"sprites/sDeadPlantform/sDeadPlantform.yy",},"order":26,},
     {"id":{"name":"sDeathzone","path":"sprites/sDeathzone/sDeathzone.yy",},"order":8,},
+    {"id":{"name":"R4_416","path":"rooms/R4_416/R4_416.yy",},"order":17,},
     {"id":{"name":"oPlatformPlantRedHover","path":"objects/oPlatformPlantRedHover/oPlatformPlantRedHover.yy",},"order":23,},
     {"id":{"name":"scrGetSeedPlantformHoverObj","path":"scripts/scrGetSeedPlantformHoverObj/scrGetSeedPlantformHoverObj.yy",},"order":3,},
     {"id":{"name":"oSeedRed","path":"objects/oSeedRed/oSeedRed.yy",},"order":14,},
@@ -93,6 +94,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"R4_416","path":"rooms/R4_416/R4_416.yy",},},
     {"roomId":{"name":"R4_4","path":"rooms/R4_4/R4_4.yy",},},
     {"roomId":{"name":"R1_1","path":"rooms/R1_1/R1_1.yy",},},
     {"roomId":{"name":"R1_2","path":"rooms/R1_2/R1_2.yy",},},
