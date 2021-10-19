@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-
 stemX = x - 32;
+initialStemX = x + (32 * 2);
 initialStemY = y - (32 * 2);
 stemY = initialStemY;
 
