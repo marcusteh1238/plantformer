@@ -8,6 +8,10 @@ keyjump = keyboard_check(vk_space)
 hspeed = (keyright -  keyleft) * walkSpd
 vspeed = vspeed + grv
 
+if(keyboard_check(ord("R"))) {
+	room_restart()
+}
+
 if(y > room_height) {
 	room_restart()
 }
