@@ -8,6 +8,10 @@ keyjump = keyboard_check(vk_space)
 hspeed = (keyright -  keyleft) * walkSpd
 vspeed = vspeed + grv
 
+if(y > room_height) {
+	room_restart()
+}
+
 if (isTouchingSolidObject(x, y + vspeed)) {
 	vspeed = 0 - keyjump * jumpSpd 
 	if (isTouchingSolidObject(x, y - 50)) {
