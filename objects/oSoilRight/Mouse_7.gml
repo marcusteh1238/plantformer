@@ -12,6 +12,7 @@ var seed = inv.invSeedStrList[|inv.currHeldIndex];
 var inst = instance_create_layer(x - 64, y + 64, "Level", scrGetSeedPlantformObj(seed));
 with inst {
 	isGrowLeft = true
+	growth_y_per_step = 2
 }
 // destroy instance of menu seed in GUI
 ds_list_delete(inv.invSeedStrList, inv.currHeldIndex);
