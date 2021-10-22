@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "plant",
+    "path": "folders/Sprites/plant.yy",
   },
   "resourceVersion": "1.0",
   "name": "sPlantformStem_2",

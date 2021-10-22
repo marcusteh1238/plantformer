@@ -28,8 +28,8 @@
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "plant",
+    "path": "folders/Objects/plant.yy",
   },
   "resourceVersion": "1.0",
   "name": "oPlatformPlantRedHover",
