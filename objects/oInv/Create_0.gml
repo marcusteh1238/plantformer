@@ -8,6 +8,7 @@ currHeldInstance = undefined;
 guiInstances = ds_list_create();
 renderMouseHoverX = 0;
 renderMouseHoverY = 0;
+seedSpacing = 64;
 
 function refresh() {
 	ds_list_clear(guiInstances);
@@ -26,11 +27,11 @@ function refresh() {
  * For a particular index of the inventory, render a seed or box at its corresponding spot.
  */
 function createSeedInstanceAtInvIndex(obj, index) {
-	return instance_create_layer(x + 16 + index * 48, y + 16, "UI2", obj)
+	return instance_create_layer(x + 16 + index * seedSpacing, y + 16, "UI2", obj)
 }
 
 function createBoxHoverAtInvIndex(index) {
 	instance_destroy(oInvSeedSelector)
 	if (index < 0) return;
-	return instance_create_layer(x + index * 48, y, "UI2", oInvSeedSelector)
+	return instance_create_layer(x + index * seedSpacing, y, "UI2", oInvSeedSelector)
 }
