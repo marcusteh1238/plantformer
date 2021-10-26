@@ -26,6 +26,8 @@
   "frames": [
     {"compositeImage":{"FrameId":{"name":"ca0a8491-d9d8-4d44-ba6b-1913be3c256b","path":"sprites/sBtn_StartGame/sBtn_StartGame.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"ca0a8491-d9d8-4d44-ba6b-1913be3c256b","path":"sprites/sBtn_StartGame/sBtn_StartGame.yy",},"LayerId":{"name":"df444634-413f-4181-8655-0ae97613f58d","path":"sprites/sBtn_StartGame/sBtn_StartGame.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"ca0a8491-d9d8-4d44-ba6b-1913be3c256b","path":"sprites/sBtn_StartGame/sBtn_StartGame.yy",},"LayerId":{"name":"c413c3eb-f6e6-487b-9c59-369a90cce414","path":"sprites/sBtn_StartGame/sBtn_StartGame.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"ca0a8491-d9d8-4d44-ba6b-1913be3c256b","path":"sprites/sBtn_StartGame/sBtn_StartGame.yy",},"LayerId":{"name":"9e716cde-4e79-45fe-b2d6-1aa938887c45","path":"sprites/sBtn_StartGame/sBtn_StartGame.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sBtn_StartGame","path":"sprites/sBtn_StartGame/sBtn_StartGame.yy",},"resourceVersion":"1.0","name":"ca0a8491-d9d8-4d44-ba6b-1913be3c256b","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -65,6 +67,8 @@
     "resourceType": "GMSequence",
   },
   "layers": [
+    {"visible":false,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default (2)","resourceVersion":"1.0","name":"c413c3eb-f6e6-487b-9c59-369a90cce414","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"9e716cde-4e79-45fe-b2d6-1aa938887c45","tags":[],"resourceType":"GMImageLayer",},
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"df444634-413f-4181-8655-0ae97613f58d","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
