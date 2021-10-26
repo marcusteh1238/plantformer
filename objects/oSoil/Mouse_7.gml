@@ -9,7 +9,7 @@ if (inv.currHeldIndex < 0 || !canPlaceSeed()) {
 // holding >= 0, player is holding a seed.
 var seed = inv.invSeedStrList[|inv.currHeldIndex];
 // plant seed
-instance_create_layer(x, oSoil.y + 32, "Level", scrGetSeedPlantformObj(seed));
+instance_create_layer(x, y + 32, "Level", scrGetSeedPlantformObj(seed));
 // destroy instance of menu seed in GUI
 ds_list_delete(inv.invSeedStrList, inv.currHeldIndex);
 instance_destroy(inv.guiInstances[|inv.currHeldIndex]);
