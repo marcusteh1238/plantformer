@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "background",
+    "path": "folders/Objects/background.yy",
   },
   "resourceVersion": "1.0",
   "name": "oCloud_1",
