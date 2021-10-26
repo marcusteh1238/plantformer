@@ -3,6 +3,8 @@
 hoverSprite = undefined;
 blockingPlantformPlacement = [oPlatformPlant, oPlatformPlantRed, oPlatforms, oPlantformStemBase_1, oPlantformStemBase_2, oPlantformStem_1, oPlantformStem_2];
 
+
+
 function canPlaceSeed() {
 	var plantformLeftEdge = x - (sprite_width) - 1;
 	var plantformRightEdge = x + (sprite_width) + 1;
