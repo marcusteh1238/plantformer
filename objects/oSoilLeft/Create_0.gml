@@ -21,3 +21,12 @@ function isCollideWithAnything(pointX1, pointX2, pointY) {
 	}
 	return false;
 }
+
+function refreshHoverSprite() {
+	var inv = instance_find(oInv, 0);
+	if (canPlaceSeed()) {
+		hoverSprite = inv.invSeedStrList[|inv.currHeldIndex];
+	} else {
+		hoverSprite = undefined;
+	}
+}
