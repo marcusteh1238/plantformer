@@ -231,8 +231,8 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "Stage 2",
-    "path": "folders/Rooms/Stage 2.yy",
+    "name": "OldRooms",
+    "path": "folders/OldRooms.yy",
   },
   "resourceVersion": "1.0",
   "name": "R2_4",
