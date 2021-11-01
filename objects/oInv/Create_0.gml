@@ -27,11 +27,11 @@ function refresh() {
  * For a particular index of the inventory, render a seed or box at its corresponding spot.
  */
 function createSeedInstanceAtInvIndex(obj, index) {
-	return instance_create_layer(x + 16 + index * seedSpacing, y + 16, "UI2", obj)
+	return instance_create_layer(x + 16 + index * seedSpacing, y + 16, "Progress", obj)
 }
 
 function createBoxHoverAtInvIndex(index) {
 	instance_destroy(oInvSeedSelector)
 	if (index < 0) return;
-	return instance_create_layer(x + index * seedSpacing, y, "UI2", oInvSeedSelector)
+	return instance_create_layer(x + index * seedSpacing, y, "Progress", oInvSeedSelector)
 }
