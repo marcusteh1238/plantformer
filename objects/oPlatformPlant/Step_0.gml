@@ -7,16 +7,12 @@ if (oSimplePlayer.isForwardTime && !isTouchingSolidObject(x + xDiff, y - growth_
 	x += xDiff;
 }
 
-var listSize = ds_list_size(stemObjArr);
-var nextStemY = initialStemY - (listSize * 32);
-var nextStemX = initialStemX - (listSize * 32);
 
-
-if (y - 32 <= stemY && !isGrowRight && !isGrowLeft) {
-	stemY = nextStemY;
-	var stemInstance = instance_create_layer(stemX, stemY, "Level", getStemObject(listSize));
-	ds_list_add(stemObjArr, stemInstance);
+if (y - 32 <= stemY || ds_list_size(stemObjArr) == 0) {
+	renderNext()
 }
+
+
 
 /*
 if (x + 32 >= stemX) {
