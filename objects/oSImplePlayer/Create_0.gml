@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+global.isCheckControls = false;
 isCreatedAtLevelStart = true;
 x_orig = x;
 y_orig = y;
