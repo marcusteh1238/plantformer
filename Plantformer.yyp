@@ -6,6 +6,7 @@
     {"id":{"name":"sBtn_Controls","path":"sprites/sBtn_Controls/sBtn_Controls.yy",},"order":7,},
     {"id":{"name":"oSoilFX","path":"objects/oSoilFX/oSoilFX.yy",},"order":4,},
     {"id":{"name":"sInvQ","path":"sprites/sInvQ/sInvQ.yy",},"order":1,},
+    {"id":{"name":"SplashPage","path":"rooms/SplashPage/SplashPage.yy",},"order":27,},
     {"id":{"name":"sInvSeedSelector","path":"sprites/sInvSeedSelector/sInvSeedSelector.yy",},"order":3,},
     {"id":{"name":"scrGetSeedPlantformObj","path":"scripts/scrGetSeedPlantformObj/scrGetSeedPlantformObj.yy",},"order":2,},
     {"id":{"name":"oPlantformStem_Diagonal_1","path":"objects/oPlantformStem_Diagonal_1/oPlantformStem_Diagonal_1.yy",},"order":15,},
@@ -85,6 +86,7 @@
     {"id":{"name":"R4_2","path":"rooms/R4_2/R4_2.yy",},"order":2,},
     {"id":{"name":"sGoal","path":"sprites/sGoal/sGoal.yy",},"order":13,},
     {"id":{"name":"oBtn_Controls","path":"objects/oBtn_Controls/oBtn_Controls.yy",},"order":6,},
+    {"id":{"name":"oSplash","path":"objects/oSplash/oSplash.yy",},"order":39,},
     {"id":{"name":"sControl_Instructions","path":"sprites/sControl_Instructions/sControl_Instructions.yy",},"order":14,},
     {"id":{"name":"sPlatforms","path":"sprites/sPlatforms/sPlatforms.yy",},"order":7,},
     {"id":{"name":"sPlantformStem_Diagonal_2","path":"sprites/sPlantformStem_Diagonal_2/sPlantformStem_Diagonal_2.yy",},"order":12,},
@@ -135,6 +137,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"SplashPage","path":"rooms/SplashPage/SplashPage.yy",},},
     {"roomId":{"name":"HomePage","path":"rooms/HomePage/HomePage.yy",},},
     {"roomId":{"name":"ControlPage","path":"rooms/ControlPage/ControlPage.yy",},},
     {"roomId":{"name":"R1_1","path":"rooms/R1_1/R1_1.yy",},},
