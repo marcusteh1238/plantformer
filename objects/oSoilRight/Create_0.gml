@@ -2,6 +2,7 @@
 // You can write your code in this editor
 hoverSprite = undefined;
 blockingPlantformPlacement = [oPlatformPlant, oPlatformPlantRed, oPlatforms, oPlantformStemBase_1, oPlantformStemBase_2, oPlantformStem_1, oPlantformStem_2];
+isHovered = false;
 
 function canPlaceSeed() {
 	var plantformLeftEdge = x - (sprite_width) - 1;

@@ -3,7 +3,7 @@
 hoverSprite = undefined;
 blockingPlantformPlacement = [oPlatformPlant, oPlatformPlantRed, oPlatforms, oPlantformStemBase_1, oPlantformStemBase_2, oPlantformStem_1, oPlantformStem_2];
 
-
+isHovered = false;
 
 function canPlaceSeed() {
 	var plantformLeftEdge = x - (sprite_width) - 1;
@@ -22,4 +22,13 @@ function isCollideWithAnything(pointX1, pointX2, pointY) {
 		}
 	}
 	return false;
+}
+
+function refreshHoverSprite() {
+	var inv = instance_find(oInv, 0);
+	if (canPlaceSeed()) {
+		hoverSprite = inv.invSeedStrList[|inv.currHeldIndex];
+	} else {
+		hoverSprite = undefined;
+	}
 }

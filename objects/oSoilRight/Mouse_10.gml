@@ -6,7 +6,5 @@ var inv = instance_find(oInv, 0);
 if (inv.currHeldIndex < 0) {
 	return;
 }
-
-if (canPlaceSeed()) {
-	hoverSprite = inv.invSeedStrList[|inv.currHeldIndex];
-}
+isHovered = true;
+refreshHoverSprite()
