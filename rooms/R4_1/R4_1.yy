@@ -83,6 +83,7 @@
         {"properties":[
             {"propertyId":{"name":"isGrowLeft","path":"objects/oPlatformPlant/oPlatformPlant.yy",},"objectId":{"name":"oPlatformPlant","path":"objects/oPlatformPlant/oPlatformPlant.yy",},"value":"True","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"oPlatformPlant","path":"objects/oPlatformPlant/oPlatformPlant.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":288.0,"y":704.0,"resourceVersion":"1.0","name":"inst_1FD3DD9C","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"oWall","path":"objects/oWall/oWall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":22.0,"scaleY":0.5,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":768.0,"resourceVersion":"1.0","name":"inst_6AE8FFED","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Level","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"oCloud_1","path":"objects/oCloud_1/oCloud_1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":2.5,"scaleY":2.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":672.0,"y":32.0,"resourceVersion":"1.0","name":"inst_48DFAEE7_2","tags":[],"resourceType":"GMRInstance",},
@@ -179,6 +180,7 @@
     {"name":"inst_6197B6A5","path":"rooms/R4_1/R4_1.yy",},
     {"name":"inst_1FD3DD9C","path":"rooms/R4_1/R4_1.yy",},
     {"name":"inst_3C0CAF61","path":"rooms/R4_1/R4_1.yy",},
+    {"name":"inst_6AE8FFED","path":"rooms/R4_1/R4_1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
