@@ -6,16 +6,16 @@ keyright = !global.isCheckControls && (keyboard_check(vk_right) || keyboard_chec
 keyjump = !global.isCheckControls && keyboard_check(vk_space)
 
 
-if (keyleft && vspeed == 0) {
+if (keyleft && isTouchingSolidObject(x,y+1)) {
 	sprite_index = sPlayer_walk_left
 }
-if (keyright && vspeed == 0) {
+if (keyright && isTouchingSolidObject(x,y+1)) {
 	sprite_index = sPlayer_walk_right
 }
-if (keyleft && vspeed != 0) {
+if (keyleft && !isTouchingSolidObject(x,y+1)) {
 	sprite_index = sPlayer_jump_left
 }
-if (keyright && vspeed != 0) {
+if (keyright && !isTouchingSolidObject(x,y+1)) {
 	sprite_index = sPlayer_jump_right
 }
 if (keyboard_check_released(ord("A"))) {
