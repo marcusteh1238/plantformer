@@ -5,6 +5,26 @@ keyleft = !global.isCheckControls && (keyboard_check(vk_left) || keyboard_check(
 keyright = !global.isCheckControls && (keyboard_check(vk_right) || keyboard_check(ord("D")))
 keyjump = !global.isCheckControls && keyboard_check(vk_space)
 
+
+if (keyleft && vspeed == 0) {
+	sprite_index = sPlayer_walk_left
+}
+if (keyright && vspeed == 0) {
+	sprite_index = sPlayer_walk_right
+}
+if (keyleft && vspeed != 0) {
+	sprite_index = sPlayer_jump_left
+}
+if (keyright && vspeed != 0) {
+	sprite_index = sPlayer_jump_right
+}
+if (keyboard_check_released(ord("A"))) {
+	sprite_index = sPlayer_idle_left
+}
+if (keyboard_check_released(ord("D"))) {
+	sprite_index = sPlayer_idle_right
+}
+
 hspeed = (keyright -  keyleft) * walkSpd
 vspeed = vspeed + grv
 
