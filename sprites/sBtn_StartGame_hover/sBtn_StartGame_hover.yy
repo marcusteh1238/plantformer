@@ -21,13 +21,14 @@
     "path": "texturegroups/Default",
   },
   "swatchColours": null,
-  "gridX": 0,
-  "gridY": 0,
+  "gridX": 32,
+  "gridY": 32,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"d4cad2ac-cf3d-4114-83bd-546ad4a2947b","path":"sprites/sBtn_StartGame_hover/sBtn_StartGame_hover.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d4cad2ac-cf3d-4114-83bd-546ad4a2947b","path":"sprites/sBtn_StartGame_hover/sBtn_StartGame_hover.yy",},"LayerId":{"name":"bec76e62-1f14-40e7-a34f-afedcf566889","path":"sprites/sBtn_StartGame_hover/sBtn_StartGame_hover.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"d4cad2ac-cf3d-4114-83bd-546ad4a2947b","path":"sprites/sBtn_StartGame_hover/sBtn_StartGame_hover.yy",},"LayerId":{"name":"6d66da0d-104f-4575-95df-706011d1a3fd","path":"sprites/sBtn_StartGame_hover/sBtn_StartGame_hover.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"d4cad2ac-cf3d-4114-83bd-546ad4a2947b","path":"sprites/sBtn_StartGame_hover/sBtn_StartGame_hover.yy",},"LayerId":{"name":"874d660e-33cd-43e9-a721-3dc160f19d2e","path":"sprites/sBtn_StartGame_hover/sBtn_StartGame_hover.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"d4cad2ac-cf3d-4114-83bd-546ad4a2947b","path":"sprites/sBtn_StartGame_hover/sBtn_StartGame_hover.yy",},"LayerId":{"name":"bec76e62-1f14-40e7-a34f-afedcf566889","path":"sprites/sBtn_StartGame_hover/sBtn_StartGame_hover.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"d4cad2ac-cf3d-4114-83bd-546ad4a2947b","path":"sprites/sBtn_StartGame_hover/sBtn_StartGame_hover.yy",},"LayerId":{"name":"591b3940-6eae-4254-941e-b62689164748","path":"sprites/sBtn_StartGame_hover/sBtn_StartGame_hover.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sBtn_StartGame_hover","path":"sprites/sBtn_StartGame_hover/sBtn_StartGame_hover.yy",},"resourceVersion":"1.0","name":"d4cad2ac-cf3d-4114-83bd-546ad4a2947b","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -68,7 +69,8 @@
   },
   "layers": [
     {"visible":false,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default (2)","resourceVersion":"1.0","name":"6d66da0d-104f-4575-95df-706011d1a3fd","tags":[],"resourceType":"GMImageLayer",},
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"874d660e-33cd-43e9-a721-3dc160f19d2e","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 2","resourceVersion":"1.0","name":"591b3940-6eae-4254-941e-b62689164748","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":false,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"874d660e-33cd-43e9-a721-3dc160f19d2e","tags":[],"resourceType":"GMImageLayer",},
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"bec76e62-1f14-40e7-a34f-afedcf566889","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
