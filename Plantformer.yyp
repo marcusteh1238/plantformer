@@ -44,6 +44,7 @@
     {"id":{"name":"Sprite61","path":"sprites/Sprite61/Sprite61.yy",},"order":17,},
     {"id":{"name":"sPlantRed","path":"sprites/sPlantRed/sPlantRed.yy",},"order":8,},
     {"id":{"name":"sPlayer_walk_right","path":"sprites/sPlayer_walk_right/sPlayer_walk_right.yy",},"order":1,},
+    {"id":{"name":"sCredits2","path":"sprites/sCredits2/sCredits2.yy",},"order":29,},
     {"id":{"name":"scrGetPlantformSprite","path":"scripts/scrGetPlantformSprite/scrGetPlantformSprite.yy",},"order":4,},
     {"id":{"name":"sBtn_Controls_hover","path":"sprites/sBtn_Controls_hover/sBtn_Controls_hover.yy",},"order":11,},
     {"id":{"name":"sDeadPlantform","path":"sprites/sDeadPlantform/sDeadPlantform.yy",},"order":9,},
@@ -239,7 +240,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.6.595",
+    "IDEVersion": "2.3.5.589",
   },
   "resourceVersion": "1.4",
   "name": "Plantformer",
