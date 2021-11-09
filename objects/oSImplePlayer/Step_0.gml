@@ -18,10 +18,10 @@ if (keyleft && !isTouchingSolidObject(x,y+1)) {
 if (keyright && !isTouchingSolidObject(x,y+1)) {
 	sprite_index = sPlayer_jump_right
 }
-if (keyboard_check_released(ord("A"))) {
+if (keyboard_check_released(ord("A")) || keyboard_check_released(vk_left)) {
 	sprite_index = sPlayer_idle_left
 }
-if (keyboard_check_released(ord("D"))) {
+if (keyboard_check_released(ord("D")) || keyboard_check_released(vk_right)) {
 	sprite_index = sPlayer_idle_right
 }
 
