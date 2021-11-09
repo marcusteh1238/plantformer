@@ -26,9 +26,9 @@
   "frames": [
     {"compositeImage":{"FrameId":{"name":"85d8d2b6-d4fc-412d-bc66-40ac8046b9d4","path":"sprites/sBtn_Controls_hover/sBtn_Controls_hover.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"85d8d2b6-d4fc-412d-bc66-40ac8046b9d4","path":"sprites/sBtn_Controls_hover/sBtn_Controls_hover.yy",},"LayerId":{"name":"90d43725-9a1e-4437-aabf-70650f04b836","path":"sprites/sBtn_Controls_hover/sBtn_Controls_hover.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"85d8d2b6-d4fc-412d-bc66-40ac8046b9d4","path":"sprites/sBtn_Controls_hover/sBtn_Controls_hover.yy",},"LayerId":{"name":"8b8382a4-cd74-4e8c-a1c0-8b9e9a9bd035","path":"sprites/sBtn_Controls_hover/sBtn_Controls_hover.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"85d8d2b6-d4fc-412d-bc66-40ac8046b9d4","path":"sprites/sBtn_Controls_hover/sBtn_Controls_hover.yy",},"LayerId":{"name":"66391b78-0a16-4cd7-8277-f9268e87fd7b","path":"sprites/sBtn_Controls_hover/sBtn_Controls_hover.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"85d8d2b6-d4fc-412d-bc66-40ac8046b9d4","path":"sprites/sBtn_Controls_hover/sBtn_Controls_hover.yy",},"LayerId":{"name":"a9530ff8-dab2-40f0-b197-03cb1fe58c15","path":"sprites/sBtn_Controls_hover/sBtn_Controls_hover.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"85d8d2b6-d4fc-412d-bc66-40ac8046b9d4","path":"sprites/sBtn_Controls_hover/sBtn_Controls_hover.yy",},"LayerId":{"name":"8b8382a4-cd74-4e8c-a1c0-8b9e9a9bd035","path":"sprites/sBtn_Controls_hover/sBtn_Controls_hover.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sBtn_Controls_hover","path":"sprites/sBtn_Controls_hover/sBtn_Controls_hover.yy",},"resourceVersion":"1.0","name":"85d8d2b6-d4fc-412d-bc66-40ac8046b9d4","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
