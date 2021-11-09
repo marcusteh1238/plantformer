@@ -9,27 +9,39 @@ stemObjArr = ds_list_create();
 
 function getStemObject(totalStemCount) {
 	if (totalStemCount <= 0) {
-		if (isGrowLeft || isGrowRight) {
-			return oPlantformStemBase_Diagonal
+		if (isGrowLeft) {
+			return oPlantformStemBase_Diagonal_L
+		}
+		if (isGrowRight) {
+			return oPlantformStemBase_Diagonal_R;
 		}
 		return oPlantformStemBase_1;
 	}
 	if (totalStemCount == 1) {
-		if (isGrowLeft || isGrowRight) {
-			return oPlantformStem_Diagonal_1
+		if (isGrowLeft) {
+			return oPlantformStem_Diagonal_1_L;
+		}
+		if (isGrowRight) {
+			return oPlantformStem_Diagonal_1_R;
 		}
 		return oPlantformStemBase_2;
 	}
 	if (totalStemCount % 2 == 0) {
 		
-		if (isGrowLeft || isGrowRight) {
-			return oPlantformStem_Diagonal_2
+		if (isGrowLeft) {
+			return oPlantformStem_Diagonal_2_L;
+		}
+		if (isGrowRight) {
+			return oPlantformStem_Diagonal_2_R;
 		}
 		return oPlantformStem_1;
 	}
 	
-	if (isGrowLeft || isGrowRight) {
-		return oPlantformStem_Diagonal_1
+	if (isGrowLeft) {
+		return oPlantformStem_Diagonal_1_L;
+	}
+	if (isGrowRight) {
+		return oPlantformStem_Diagonal_1_R;
 	}
 	return oPlantformStem_2;
 }
@@ -41,7 +53,7 @@ function renderNext() {
 	//show_debug_message("stemX: " + string(stemX))
 	stemX = initialStemX;
 	if (isGrowRight) {
-		stemX = initialStemX + ((listSize + 2) * 32);
+		stemX = initialStemX + ((listSize + 2) * 32) - 128;
 	}
 	if (isGrowLeft) {
 		stemX = initialStemX - (listSize * 32);
