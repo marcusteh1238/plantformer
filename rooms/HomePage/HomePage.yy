@@ -15,8 +15,8 @@
   "layers": [
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"oBtn_StartGame","path":"objects/oBtn_StartGame/oBtn_StartGame.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":512.0,"y":352.0,"resourceVersion":"1.0","name":"inst_8327590","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"oBtn_Controls","path":"objects/oBtn_Controls/oBtn_Controls.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":512.0,"y":416.0,"resourceVersion":"1.0","name":"inst_424233D6","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"oBtn_Credits","path":"objects/oBtn_Credits/oBtn_Credits.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":512.0,"y":480.0,"resourceVersion":"1.0","name":"inst_295500E5","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"oBtn_Controls_MainMenu","path":"objects/oBtn_Controls_MainMenu/oBtn_Controls_MainMenu.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":512.0,"y":416.0,"resourceVersion":"1.0","name":"inst_40DDF069","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"UI","tags":[],"resourceType":"GMRInstanceLayer",},
     {"assets":[
         {"spriteId":{"name":"sDeathzone","path":"sprites/sDeathzone/sDeathzone.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":384.0,"y":736.0,"resourceVersion":"1.0","name":"graphic_4617D7CD","tags":[],"resourceType":"GMRSpriteGraphic",},
@@ -120,8 +120,8 @@
   "inheritCode": false,
   "instanceCreationOrder": [
     {"name":"inst_8327590","path":"rooms/HomePage/HomePage.yy",},
-    {"name":"inst_424233D6","path":"rooms/HomePage/HomePage.yy",},
     {"name":"inst_295500E5","path":"rooms/HomePage/HomePage.yy",},
+    {"name":"inst_40DDF069","path":"rooms/HomePage/HomePage.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

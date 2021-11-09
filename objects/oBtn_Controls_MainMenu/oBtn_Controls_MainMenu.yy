@@ -32,7 +32,7 @@
     "path": "folders/Objects/ui.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oBtn_Controls",
+  "name": "oBtn_Controls_MainMenu",
   "tags": [],
   "resourceType": "GMObject",
 }

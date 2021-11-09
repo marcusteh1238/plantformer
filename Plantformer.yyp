@@ -84,6 +84,7 @@
     {"id":{"name":"sCloud_3","path":"sprites/sCloud_3/sCloud_3.yy",},"order":2,},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":2,},
     {"id":{"name":"sPlantformStem_Diagonal_1_R","path":"sprites/sPlantformStem_Diagonal_1_R/sPlantformStem_Diagonal_1_R.yy",},"order":16,},
+    {"id":{"name":"oBtn_Controls_MainMenu","path":"objects/oBtn_Controls_MainMenu/oBtn_Controls_MainMenu.yy",},"order":20,},
     {"id":{"name":"oSimplePlayer","path":"objects/oSimplePlayer/oSimplePlayer.yy",},"order":0,},
     {"id":{"name":"R2_1","path":"rooms/R2_1/R2_1.yy",},"order":0,},
     {"id":{"name":"Sprite60","path":"sprites/Sprite60/Sprite60.yy",},"order":16,},
