@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sBtn_Base",
-    "path": "sprites/sBtn_Base/sBtn_Base.yy",
+    "name": "sBtn_Resume",
+    "path": "sprites/sBtn_Resume/sBtn_Resume.yy",
   },
   "solid": false,
   "visible": true,
