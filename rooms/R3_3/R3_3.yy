@@ -14,7 +14,7 @@
   ],
   "layers": [
     {"instances":[
-        {"properties":[],"isDnd":false,"objectId":{"name":"oProgressBar","path":"objects/oProgressBar/oProgressBar.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":15.000001,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":864.0,"y":0.0,"resourceVersion":"1.0","name":"inst_681B3F4E","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"oProgressBar","path":"objects/oProgressBar/oProgressBar.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":15.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":864.0,"y":0.0,"resourceVersion":"1.0","name":"inst_681B3F4E","tags":[],"resourceType":"GMRInstance",},
         {"properties":[
             {"propertyId":{"name":"level_name","path":"objects/oLevelIndicator/oLevelIndicator.yy",},"objectId":{"name":"oLevelIndicator","path":"objects/oLevelIndicator/oLevelIndicator.yy",},"value":"3-3","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"oLevelIndicator","path":"objects/oLevelIndicator/oLevelIndicator.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1248.0,"y":32.0,"resourceVersion":"1.0","name":"inst_18FA7DE5","tags":[],"resourceType":"GMRInstance",},
