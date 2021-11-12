@@ -48,6 +48,9 @@ if (isTouchingSolidObject(x, y + vspeed)) {
 if (isTouchingSolidObject(x + hspeed, y)) {
 	hspeed = 0
 }
+if (isTouchingSolidObject(x, y + vspeed)) {
+	vspeed = 0
+}
 
 
 function isCollide(collisionList) {
