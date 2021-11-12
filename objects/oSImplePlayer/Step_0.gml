@@ -37,8 +37,10 @@ if(y > room_height) {
 }
 
 if (isTouchingSolidObject(x, y + vspeed)) {
-	vspeed = 0 - keyjump * jumpSpd 
-	if (isTouchingSolidObject(x, y - 50)) {
+	vspeed = 0 - keyjump * jumpSpd
+	if (isTouchingSolidObject(x, y)) {
+		vspeed = -vspeed;
+	} else if (isTouchingSolidObject(x, y - 5)) {
 		vspeed = 0;
 	}
 }
