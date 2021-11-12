@@ -1,13 +1,13 @@
 /// @description Insert description here
 // You can write your code in this editor
 hoverSprite = undefined;
-blockingPlantformPlacement = [oPlatformPlant, oPlatformPlantRed, oPlatforms, oPlantformStemBase_1, oPlantformStemBase_2, oPlantformStem_1, oPlantformStem_2, oSimplePlayer];
+blockingPlantformPlacement = [oPlatformPlant, oPlatformPlantRed, oPlatforms, oPlantformStemBase_1, oPlantformStemBase_2, oPlantformStem_1, oPlantformStem_2, oSimplePlayer, oPlantformStem_Diagonal_1_L, oPlantformStem_Diagonal_1_R, oPlantformStem_Diagonal_2_L, oPlantformStem_Diagonal_2_R];
 
 isHovered = false;
 
 function canPlaceSeed() {
 	var plantformLeftEdge = x - (sprite_width) - 1;
-	var plantformRightEdge = x + (sprite_width) + 1;
+	var plantformRightEdge = x + (sprite_width * 3) + 1;
 	var plantformY1 = y;
 	var plantformY2 = y - sprite_height;
 	return !isCollideWithAnything(plantformLeftEdge, plantformRightEdge, plantformY1) &&
