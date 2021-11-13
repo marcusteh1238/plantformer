@@ -195,7 +195,6 @@
     {"roomId":{"name":"CreditsPage","path":"rooms/CreditsPage/CreditsPage.yy",},},
     {"roomId":{"name":"WinPage","path":"rooms/WinPage/WinPage.yy",},},
     {"roomId":{"name":"R1_1","path":"rooms/R1_1/R1_1.yy",},},
-    {"roomId":{"name":"R4_4","path":"rooms/R4_4/R4_4.yy",},},
     {"roomId":{"name":"R1_2","path":"rooms/R1_2/R1_2.yy",},},
     {"roomId":{"name":"R1_3","path":"rooms/R1_3/R1_3.yy",},},
     {"roomId":{"name":"R1_4","path":"rooms/R1_4/R1_4.yy",},},
@@ -209,6 +208,7 @@
     {"roomId":{"name":"R4_1","path":"rooms/R4_1/R4_1.yy",},},
     {"roomId":{"name":"R4_2","path":"rooms/R4_2/R4_2.yy",},},
     {"roomId":{"name":"R4_3","path":"rooms/R4_3/R4_3.yy",},},
+    {"roomId":{"name":"R4_4","path":"rooms/R4_4/R4_4.yy",},},
     {"groupName":"archived","children":[
         {"roomId":{"name":"R2_3_old","path":"rooms/R2_3_old/R2_3_old.yy",},},
         {"roomId":{"name":"R2_4_old","path":"rooms/R2_4_old/R2_4_old.yy",},},

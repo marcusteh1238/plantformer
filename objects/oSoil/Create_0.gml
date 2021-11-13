@@ -7,12 +7,13 @@ isHovered = false;
 
 function canPlaceSeed() {
 	var plantformLeftEdge = x - (sprite_width) - 1;
-	var plantformRightEdge = x + (sprite_width * 3) + 1;
+	var plantformRightEdge = x + (sprite_width) + 1;
 	var plantformY1 = y;
 	var plantformY2 = y - sprite_height;
 	return !isCollideWithAnything(plantformLeftEdge, plantformRightEdge, plantformY1) &&
 		!isCollideWithAnything(plantformLeftEdge, plantformRightEdge, plantformY2)
 }
+
 
 function isCollideWithAnything(pointX1, pointX2, pointY) {
 	blockingPlantformPlacementSize = array_length(blockingPlantformPlacement);
